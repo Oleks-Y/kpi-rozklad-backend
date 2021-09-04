@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "axWkk6a43iFKhK2bZQleXVGBakI7lDJLrwdEeIdkbh9hXFuZYa+QeLLbCfWq1rHTWFoLyyPOaJybnO8rL1c4hQ==",
+  "dgSpecHash": "AwIV2lme3GREWB8AHVzxesbCAc9wleYVIKMgpLeWpFe8gVYolm0qgRolO0mDkLv8mwIoIcI2KqHP3nRttVcz/g==",
   "success": true,
-  "projectFilePath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj",
+  "projectFilePath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

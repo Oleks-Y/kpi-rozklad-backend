@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using RestSharp;
-using rozklad_backend.src.Rozklad.Parser.Entities;
+using Rozklad.Parser.Entities;
 
-namespace rozklad_backend.src.Rozklad.Parser
+namespace Rozklad.Parser
 {
-    internal abstract class FetchEntity<T> : IFetchData<T>
+    public abstract class FetchEntity<T> : IFetchData<T>
     {
         protected readonly string _password; 
         private readonly RestClient _client;
@@ -41,7 +39,7 @@ namespace rozklad_backend.src.Rozklad.Parser
     }
 
 
-    internal class FetchGroup : FetchEntity<GroupTimetable>
+    public class FetchGroup : FetchEntity<GroupTimetable>
     {
         public FetchGroup(string password) : base( "https://reg.kpi.ua/NP.Dev/WebService.asmx", password)
         {

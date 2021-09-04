@@ -1,26 +1,73 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "RestSharp/106.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Rozklad.Parser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "RestSharp": "106.12.0"
+        },
+        "compile": {
+          "bin/placeholder/Rozklad.Parser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rozklad.Parser.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RestSharp/106.12.0": {
+      "sha512": "irOsQHe5nTJB0BKxGQnTX1dsgCPl5dLTxvL7gbl98JiFPiHMN4wpFyUG/66ZpaFCsIrPKh6XwozWXlwYe9JwYQ==",
+      "type": "package",
+      "path": "restsharp/106.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.12.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
+    "Rozklad.Parser/1.0.0": {
+      "type": "project",
+      "path": "../Rozklad.Parser/Rozklad.Parser.csproj",
+      "msbuildProject": "../Rozklad.Parser/Rozklad.Parser.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Rozklad.Parser >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/Users/alex/.nuget/packages/": {}
+    "/Users/elizavetabojko/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.API/Rozklad.API.csproj",
+      "projectUniqueName": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/Rozklad.API.csproj",
       "projectName": "Rozklad.API",
-      "projectPath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.API/Rozklad.API.csproj",
-      "packagesPath": "/Users/alex/.nuget/packages/",
-      "outputPath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.API/obj/",
+      "projectPath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/Rozklad.API.csproj",
+      "packagesPath": "/Users/elizavetabojko/.nuget/packages/",
+      "outputPath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alex/.nuget/NuGet/NuGet.Config"
+        "/Users/elizavetabojko/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -31,7 +78,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/Rozklad.Parser.csproj": {
+              "projectPath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/Rozklad.Parser.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

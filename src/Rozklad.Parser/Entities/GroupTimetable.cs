@@ -1,4 +1,4 @@
-namespace rozklad_backend.src.Rozklad.Parser.Entities
+namespace Rozklad.Parser.Entities
 {
     public class GroupTimetable
     {

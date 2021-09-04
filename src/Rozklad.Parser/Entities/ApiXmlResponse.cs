@@ -1,7 +1,7 @@
 using System.Xml.Serialization;
 using System.Text.Json;
 
-namespace rozklad_backend.src.Rozklad.Parser.Entities
+namespace Rozklad.Parser.Entities
 {
     public record ApiXmlResponse<T>
     {

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ekq6RlbraFdUWi3tUIDmLp4t9onP2PntLo9zJx46feD51QSsO7Rqw3t2HM0n7wcO6TgwLQWsqLf26R5C1EI2bw==",
+  "dgSpecHash": "1TQqmBsuzHT1J4tzwdCD39CJXLbbj9aXg8ol8P6uvk3Cf3FZuAAU6fXZb1wRVhsbuahD/lIqsQWvcYCClPYj3w==",
   "success": true,
-  "projectFilePath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Parser/Rozklad.Parser.csproj",
+  "projectFilePath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/Rozklad.Parser.csproj",
   "expectedPackageFiles": [
-    "/Users/alex/.nuget/packages/restsharp/106.12.0/restsharp.106.12.0.nupkg.sha512"
+    "/Users/elizavetabojko/.nuget/packages/restsharp/106.12.0/restsharp.106.12.0.nupkg.sha512"
   ],
   "logs": []
 }

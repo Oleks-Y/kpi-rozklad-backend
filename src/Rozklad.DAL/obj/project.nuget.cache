@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "LjUL6xJTSAwhlIVPTlz1HZhoL+R34mE/MosfL2A9kMEJup8o3VyamfbsyvEtDSMlcU3xwmTb44ztKUsvXUB3Ag==",
+  "success": true,
+  "projectFilePath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.DAL/Rozklad.DAL.csproj",
+  "expectedPackageFiles": [
+    "/Users/alex/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

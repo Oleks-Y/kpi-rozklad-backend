@@ -24,3 +24,8 @@
 /Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/Rozklad.Parser.dll
 /Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/Rozklad.Parser.pdb
 /Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/obj/Debug/net5.0/Rozklad.API.csproj.CopyComplete
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/RichardSzalay.MockHttp.dll
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/xunit.abstractions.dll
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/xunit.assert.dll
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/xunit.core.dll
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.API/bin/Debug/net5.0/xunit.execution.dotnet.dll

@@ -10,3 +10,6 @@
 /Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/obj/Debug/net5.0/Rozklad.Parser.dll
 /Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/obj/Debug/net5.0/ref/Rozklad.Parser.dll
 /Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/obj/Debug/net5.0/Rozklad.Parser.pdb
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/bin/Debug/net5.0/Rozklad.Parser.runtimeconfig.json
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/bin/Debug/net5.0/Rozklad.Parser.runtimeconfig.dev.json
+/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Parser/obj/Debug/net5.0/Rozklad.Parser.genruntimeconfig.cache

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj": {}
+    "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj": {}
   },
   "projects": {
-    "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj": {
+    "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj",
+        "projectUniqueName": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj",
         "projectName": "Rozklad.Models",
-        "projectPath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj",
-        "packagesPath": "/Users/elizavetabojko/.nuget/packages/",
-        "outputPath": "/Users/elizavetabojko/Documents/GitHub/kpi-rozklad-backend/src/Rozklad.Models/obj/",
+        "projectPath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Models/Rozklad.Models.csproj",
+        "packagesPath": "/Users/alex/.nuget/packages/",
+        "outputPath": "/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elizavetabojko/.nuget/NuGet/NuGet.Config"
+          "/Users/alex/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

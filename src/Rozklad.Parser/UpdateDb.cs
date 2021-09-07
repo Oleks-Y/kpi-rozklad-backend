@@ -1,6 +1,6 @@
-namespace rozklad_backend.src.Rozklad.Parser
+namespace Rozklad.Parser
 {
-    internal public class UpdateDb
+    public class UpdateDb
     {
         
     }

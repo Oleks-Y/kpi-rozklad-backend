@@ -1,5 +1,0 @@
-/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.DAL/obj/Debug/net5.0/Rozklad.DAL.csproj.AssemblyReference.cache
-/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.DAL/obj/Debug/net5.0/Rozklad.DAL.GeneratedMSBuildEditorConfig.editorconfig
-/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.DAL/obj/Debug/net5.0/Rozklad.DAL.AssemblyInfoInputs.cache
-/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.DAL/obj/Debug/net5.0/Rozklad.DAL.AssemblyInfo.cs
-/Users/alex/proj/kpi/rozklad-backend/src/Rozklad.DAL/obj/Debug/net5.0/Rozklad.DAL.csproj.CoreCompileInputs.cache

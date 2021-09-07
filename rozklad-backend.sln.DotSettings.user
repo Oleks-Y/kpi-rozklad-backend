@@ -1,6 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1b4f4e0f_002Dff03_002D475a_002Db3e8_002D2f6b043349ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="getJsonFromApi" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::6A68DD95-F56A-44B0-9A50-5FB2D197F1A7::net5.0::Rozklad.API.Tests.Rozklad.API.Tests.RozkladAPITest.getJsonFromApi&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

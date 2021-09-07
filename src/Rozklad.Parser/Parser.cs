@@ -1,4 +1,4 @@
-namespace rozklad_backend.src.Rozklad.Parser
+namespace Rozklad.Parser
 {
     public class Parser
     {

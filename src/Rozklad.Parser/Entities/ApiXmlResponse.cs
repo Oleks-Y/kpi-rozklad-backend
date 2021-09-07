@@ -1,21 +1,21 @@
 using System.Xml.Serialization;
 using System.Text.Json;
+using System.Xml;
 
-namespace rozklad_backend.src.Rozklad.Parser.Entities
+namespace Rozklad.Parser.Entities
 {
     public record ApiXmlResponse<T>
     {
-        [XmlElement("string")]
-        public string String { get; set; }
-        
-        public T Data { get; set; }
-        /// <summary>
-        /// // TODO if parameters can`t automatically pass to consstructor rename to method like 'init' and call from code
-        /// /// </summary>
-        /// <param name="data"></param>
-        public ApiXmlResponse(string data)
+        public T Data { get; }
+
+        public ApiXmlResponse(string xml)
         {
-            Data = JsonSerializer.Deserialize<T>(data);
+            
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(xml);
+            var json = xmlDoc.GetElementsByTagName("string")[0].InnerXml;
+            var stringFormatted = json.Replace("'", "\"");
+            Data = JsonSerializer.Deserialize<T>(stringFormatted);
         }
     }
 }

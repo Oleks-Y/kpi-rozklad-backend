@@ -4,4 +4,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+     <ProjectReference Include="..\Rozklad.Parser\Rozklad.Parser.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="RichardSzalay.MockHttp" Version="6.0.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
 </Project>

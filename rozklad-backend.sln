@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozklad.Models", "src\Rozkl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozklad.Parser", "src\Rozklad.Parser\Rozklad.Parser.csproj", "{0585A30E-F581-4DC4-98DD-E89B293F1749}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozklad.Parser.Test", "tests\Rozklad.Parser.Test\Rozklad.Parser.Test.csproj", "{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{0585A30E-F581-4DC4-98DD-E89B293F1749}.Release|x64.Build.0 = Release|Any CPU
 		{0585A30E-F581-4DC4-98DD-E89B293F1749}.Release|x86.ActiveCfg = Release|Any CPU
 		{0585A30E-F581-4DC4-98DD-E89B293F1749}.Release|x86.Build.0 = Release|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Release|x64.Build.0 = Release|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE73D5C7-105C-4B8C-8830-FDB303E7CF75}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -34,9 +34,9 @@ namespace Rozklad.Parser
             {
                 throw new GroupNotFoundException();
             }
-
-            var response = res.Data;
-            return response.Data;
+            var responseString = res.Content;
+            var responseParsed = new ApiXmlResponse<T>(responseString);
+            return responseParsed.Data;
         }
     }
 
